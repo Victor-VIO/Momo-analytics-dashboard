@@ -10,7 +10,7 @@ Crispin HIRWA
 This project processes MoMo SMS data in XML format, cleans and categorizes the data, stores it in a relational database, and provides a frontend dashboard for analytics and visualization.
 
 ## Scrum Board
-[Scrum Board Link Here]
-
+https://github.com/users/Victor-VIO/projects/4/views/1[Link to scrum board]
 ## Architecture Diagram
-[Diagram Link or file reference here]
+https://drive.google.com/file/d/168doz9eupF_xOoHJLmqCt6lxX3chw3cY/view?usp=drive_link[Diagram Link]
+
