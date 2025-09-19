@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "name": "Alice",
+      "phone_number": "250788123456",
+      "email": "alice@example.com"
+    },
+    {
+      "user_id": 2,
+      "name": "Bob",
+      "phone_number": "250788654321",
+      "email": "bob@example.com"
+    },
+    {
+      "user_id": 3,
+      "name": "Charlie",
+      "phone_number": "250788987654",
+      "email": "charlie@example.com"
+    }
+  ],
+
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "Payment",
+      "description": "Payment to merchants"
+    },
+    {
+      "category_id": 2,
+      "category_name": "Transfer",
+      "description": "Peer-to-peer transfer"
+    }
+  ],
+
+  "transactions": [
+    {
+      "transaction_id": 101,
+      "sender_id": 1,
+      "receiver_id": 2,
+      "category_id": 1,
+      "amount": 5000.00,
+      "transaction_time": "2025-09-01T10:00:00",
+      "status": "Completed"
+    },
+    {
+      "transaction_id": 102,
+      "sender_id": 2,
+      "receiver_id": 3,
+      "category_id": 2,
+      "amount": 2500.00,
+      "transaction_time": "2025-09-01T11:00:00",
+      "status": "Completed"
+    }
+  ],
+
+  "full_transaction_example": {
+    "transaction_id": 101,
+    "amount": 5000.00,
+    "transaction_time": "2025-09-01T10:00:00",
+    "status": "Completed",
+    "sender": {
+      "user_id": 1,
+      "name": "Alice",
+      "phone_number": "250788123456",
+      "email": "alice@example.com"
+    },
+    "receiver": {
+      "user_id": 2,
+      "name": "Bob",
+      "phone_number": "250788654321",
+      "email": "bob@example.com"
+    },
+    "category": {
+      "category_id": 1,
+      "category_name": "Payment",
+      "description": "Payment to merchants"
+    },
+    "logs": [
+      {
+        "log_id": 1,
+        "log_time": "2025-09-01T10:05:00",
+        "message": "Parsed successfully"
+      },
+      {
+        "log_id": 2,
+        "log_time": "2025-09-01T10:06:00",
+        "message": "Loaded into DB"
+      }
+    ]
+  }
+}
