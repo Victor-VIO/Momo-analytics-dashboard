@@ -1,0 +1,49 @@
+<transactions>
+    <transaction>
+        <transaction_id>101</transaction_id>
+        <sender>
+            <user_id>1</user_id>
+            <name>Alice</name>
+            <phone_number>250788123456</phone_number>
+            <email>alice@example.com</email>
+        </sender>
+        <receiver>
+            <user_id>2</user_id>
+            <name>Bob</name>
+            <phone_number>250788654321</phone_number>
+            <email>bob@example.com</email>
+        </receiver>
+        <category>
+            <category_id>1</category_id>
+            <category_name>Payment</category_name>
+            <description>Payment to merchants</description>
+        </category>
+        <amount>5000.00</amount>
+        <transaction_time>2025-09-01T10:00:00</transaction_time>
+        <status>Completed</status>
+    </transaction>
+
+    <transaction>
+        <transaction_id>102</transaction_id>
+        <sender>
+            <user_id>2</user_id>
+            <name>Bob</name>
+            <phone_number>250788654321</phone_number>
+            <email>bob@example.com</email>
+        </sender>
+        <receiver>
+            <user_id>3</user_id>
+            <name>Charlie</name>
+            <phone_number>250788987654</phone_number>
+            <email>charlie@example.com</email>
+        </receiver>
+        <category>
+            <category_id>2</category_id>
+            <category_name>Transfer</category_name>
+            <description>Peer-to-peer transfer</description>
+        </category>
+        <amount>2500.00</amount>
+        <transaction_time>2025-09-01T11:00:00</transaction_time>
+        <status>Completed</status>
+    </transaction>
+</transactions>
